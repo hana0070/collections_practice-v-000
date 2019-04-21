@@ -59,7 +59,10 @@ end
 
 def add_s(array)
   array.each do |word|
-    word.join("s")
+    if array[1]
+      array
+    else
+      word << "s"
   end
-  array 
+  array
 end
