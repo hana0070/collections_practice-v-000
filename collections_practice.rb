@@ -36,8 +36,10 @@ def reverse_array(array)
   array.reverse
 end
 
-def kesha_maker(array)
-  array.sub!("$")
+def kesha_maker(array, index)
+  array.sub "index[2]", "$"
+
+  #"Super bag".sub "g", "d" # => "Super bad"
 end
 
 def find_a(array)
