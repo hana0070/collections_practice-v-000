@@ -37,8 +37,8 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.each do |index|
-    index.split
+  array.sub("$")
+
   end
   array
 end
@@ -53,6 +53,6 @@ def sum_array(array)
 end
 
 def add_s(array)
-  
+
 
 end
