@@ -59,11 +59,7 @@ end
 
 def add_s(array)
   array.each do |word|
-    if array[1]
-      word
-    else
       word << "s"
-    end
   end
   array
 end
