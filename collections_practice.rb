@@ -63,6 +63,7 @@ def add_s(array)
       array
     else
       word << "s"
+    end
   end
   array
 end
