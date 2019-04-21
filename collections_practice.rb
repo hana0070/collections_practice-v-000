@@ -38,7 +38,7 @@ end
 
 def kesha_maker(array)
   array.each do |index|
-    index.split.sub "3", "$"
+    index.split.gsub "element[2]", "$"
   end
   array
 end
