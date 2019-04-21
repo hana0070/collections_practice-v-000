@@ -37,10 +37,8 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  i = 0
   array.each do |index|
-    i.split.sub "3", "$"
-    i = i + 1
+    index.split.sub "3", "$"
   end
   array
   #"Super bag".sub "g", "d" # => "Super bad"
