@@ -38,7 +38,7 @@ end
 
 def kesha_maker(array)
   array.each do |index|
-    index.sub "3", "$"
+    index.split.sub "3", "$"
   end
   array
   #"Super bag".sub "g", "d" # => "Super bad"
