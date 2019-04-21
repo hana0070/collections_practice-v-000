@@ -41,10 +41,6 @@ def kesha_maker(array)
     index.split.sub "3", "$"
   end
   array
-  #"Super bag".sub "g", "d" # => "Super bad"
-  # To replace a character at a specified position :
-  #str[0..pos-1] + s + str[pos+1..-1]      # new String
-  #str[pos,1] = s                          # modify their receiver
 end
 
 def find_a(array)
